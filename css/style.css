@@ -90,3 +90,35 @@ img {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .mt-5 a {
+    display: flex;
+    justify-content: center;
+    margin: auto 60px;
+  }
+  .yoga {
+    margin-top: 45px;
+  }
+
+  .email-link {
+    font-size: 20px;
+  }
+}
